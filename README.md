@@ -1,0 +1,3 @@
+# Segmentation Fault in Assembly Code
+
+This repository demonstrates a common error in assembly programming: accessing memory outside the allocated range due to an unvalidated index register (ECX in this case). The code attempts to access memory using an indexed addressing mode, which can cause a segmentation fault if the index is out of bounds. The solution demonstrates how to validate the ECX register to prevent this error. The code is written in x86 assembly language.
